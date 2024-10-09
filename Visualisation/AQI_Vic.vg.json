@@ -6,7 +6,7 @@
   "width": 500,
   "height": 350,
   "data": {
-    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/AQI_Vic.csv"
+    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/Resources/Data/AQI_Vic.csv"
   },
   "config": {
     "background": "#f0f0f0",

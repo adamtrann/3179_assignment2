@@ -21,7 +21,7 @@
             "lookup": "properties.STE_NAME16",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/fire_state.csv"
+                    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/Resources/Data/fire_state.csv"
                 },
                 "key": "Jurisdiction",
                 "fields": ["Value"]

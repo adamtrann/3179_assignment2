@@ -103,8 +103,22 @@ h1, h2, h3, p {
 
 .title-top{
     padding-bottom: 0;
+    font-size: 60px;
 }
 
 .title-bottom{
     padding-top: 20px;
+    font-size: 45px;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.author{
+    font-family: 'Roboto';
+    padding-bottom: 20px;
+
 }

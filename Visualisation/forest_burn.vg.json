@@ -7,7 +7,7 @@
   "width": 650,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/forest_burn.csv"
+    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/Resources/Data/forest_burn.csv"
   },
   "config": {
     "background": "#f0f0f0",

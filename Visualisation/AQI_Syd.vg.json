@@ -6,7 +6,7 @@
   "width": 500,
   "height": 350,
   "data": {
-    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/AQI_NSW.csv"
+    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/Resources/Data/AQI_NSW.csv"
   },
   "config": {
     "background": "#f0f0f0",

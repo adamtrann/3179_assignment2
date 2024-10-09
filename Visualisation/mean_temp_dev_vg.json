@@ -5,7 +5,7 @@
     "fontSize": 20
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/mean_temp_anomaly.csv"
+    "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/Resources/Data/mean_temp_anomaly.csv"
   },
   "width": 600,
   "height": 500,
