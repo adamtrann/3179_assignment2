@@ -58,7 +58,9 @@
           2018,
           2019,
           2020,
-          2021
+          2021,
+          2022,
+          2023
         ],
         "name": "Select Year: "
       }
@@ -69,7 +71,19 @@
       "filter": "selectedYear == 'All' || datum.Year == selectedYear"   
     }
   ],
-  "mark": "bar",
+  "selection": {
+    "highlight": {
+      "type": "single",
+      "on": "mouseover",
+      "empty": "none",
+      "fields": ["Year"]
+    }
+  },
+  "mark": {
+    "type": "bar",
+    "stroke": "black",
+    "strokeWidth": 1
+  },
   "encoding": {
     "x": {
       "field": "Year",
@@ -96,9 +110,20 @@
         {
           "test": "datum.Temperture > 0",
           "value": "#E45855"
+        },
+        {
+          "selection": "highlight",
+          "value": "#ffcc00"
         }
       ],
       "value": "#4C78A8"
+    },
+    "opacity": {
+      "condition": {
+        "selection": "highlight",
+        "value": 1
+      },
+      "value": 0.7
     },
     "tooltip": [
       {"field": "Year", "title": "Year"},

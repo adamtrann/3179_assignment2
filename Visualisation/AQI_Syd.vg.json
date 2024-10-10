@@ -21,10 +21,15 @@
         "x": {
           "field": "date",
           "type": "temporal",
+          "timeUnit": "monthdate",
+
+
           "axis": {
             "labelAngle": 45,
             "title": "Date",
-            "grid": false
+            "grid": false,
+            "format": "%d-%b"  
+
           }
         },
         "y": {

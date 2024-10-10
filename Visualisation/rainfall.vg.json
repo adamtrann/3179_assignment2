@@ -72,7 +72,19 @@
       "filter": "selectedYear == 'All' || datum.Year == selectedYear"   
     }
   ],
-  "mark": "bar",
+  "selection": {
+    "highlight": {
+      "type": "single",
+      "on": "mouseover",
+      "empty": "none",
+      "fields": ["Year"]
+    }
+  },
+  "mark": {
+    "type": "bar",
+    "stroke": "black",
+    "strokeWidth": 1
+  },
   "encoding": {
     "x": {
       "field": "Year",
@@ -87,10 +99,24 @@
       }
     },
     "color": {
+      "condition": [
+        {
+          "test": "datum.Year == 2019",
+          "value": "black"
+        },
+        {
+          "selection": "highlight",
+          "value": "#ffcc00"
+        }
+      ],
+      "value": "steelblue"
+    },
+    "opacity": {
       "condition": {
-        "test": "datum.Year == 2019",
-        "value": "black"
-      }
+        "selection": "highlight",
+        "value": 1
+      },
+      "value": 0.7
     },
     "tooltip": [
       {"field": "Year", "title": "Year"},

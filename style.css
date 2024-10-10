@@ -6,6 +6,7 @@
 
 .content {
     text-align: center;
+    padding-top: 40px;
 }
 
 body {
@@ -121,4 +122,9 @@ h1, h2, h3, p {
     font-family: 'Roboto';
     padding-bottom: 20px;
 
+}
+
+.disclaimer{
+    font-style: italic;
+    text-align: right;
 }
