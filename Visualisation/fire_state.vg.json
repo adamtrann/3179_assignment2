@@ -49,7 +49,7 @@
                     "#FF0000"
                 ]
             },
-            "legend": {"title": "Forest Burnt %"}
+            "legend": {"title": "%"}
         },
         "tooltip": [
             {"field": "properties.STE_NAME16", "type": "nominal", "title": "Jurisdiction"},

@@ -2,7 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Annual Mean Temperature Deviation from 1986 to 2023",
-    "fontSize": 20
+    "fontSize": 20,
+    "subtitle": "Figure 2: Annual temperature deviation (°C) from 1986 to 2023, showing variations in temperature over the period.",
+    "subtitleFontSize": 15
   },
   "data": {
     "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/Resources/Data/mean_temp_anomaly.csv"

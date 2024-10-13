@@ -2,7 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Annual Rainfall (mm) from 1986 to 2021",
-    "fontSize": 20
+    "fontSize": 20,
+    "subtitle": "Figure 1: Annual rainfall (mm) from 1986 to 2021, showing variations in rainfall over the period.",
+    "subtitleFontSize": 15
   },
   "data": {
     "url": "https://raw.githubusercontent.com/adamtrann/3179_assignment2/refs/heads/main/Resources/Data/Average%20Rainfaill.csv"
