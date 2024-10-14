@@ -23,23 +23,24 @@
   "params": [
     {
       "name": "selectedYear",
-      "value": "All",   
+      "value": "All",
       "bind": {
-        "input": "select",  
+        "input": "select",
         "options": [
           "All",
+          "Last 10 Years",
           1986,
-          1987,   
+          1987,
           1988,
           1989,
           1990,
-          1991,   
+          1991,
           1992,
           1993,
           1994,
           1995,
           1996,
-          1997,   
+          1997,
           1998,
           1999,
           2000,
@@ -69,9 +70,10 @@
       }
     }
   ],
+
   "transform": [
     {
-      "filter": "selectedYear == 'All' || datum.Year == selectedYear"   
+      "filter": "selectedYear == 'All' || datum.Year == selectedYear || (selectedYear == 'Last 10 Years' && datum.Year >= 2021 - 9)"
     }
   ],
   "selection": {
@@ -91,7 +93,10 @@
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "axis": {"labelAngle": 45, "grid": false}
+      "axis": {
+        "labelAngle": 45,
+        "grid": false
+      }
     },
     "y": {
       "field": "Rainfall (mm)",
@@ -121,8 +126,14 @@
       "value": 0.7
     },
     "tooltip": [
-      {"field": "Year", "title": "Year"},
-      {"field": "Rainfall (mm)", "title": "Rainfall (mm)"}
+      {
+        "field": "Year",
+        "title": "Year"
+      },
+      {
+        "field": "Rainfall (mm)",
+        "title": "Rainfall (mm)"
+      }
     ]
   }
 }

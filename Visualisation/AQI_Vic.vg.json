@@ -2,7 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Average Daily Air Quality: Victoria - 2019",
-    "fontSize": 20},
+    "fontSize": 20,
+    "subtitle": "Figure 4: Daily Average PM 2.5 (µg/m³) Reading from Various Stations in Victoria.",
+    "subtitleFontSize": 15},
   "width": 500,
   "height": 350,
   "data": {

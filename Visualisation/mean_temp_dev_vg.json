@@ -25,6 +25,7 @@
         "input": "select",
         "options": [
           "All",
+          "Last 10 Years",
           1986,
           1987,   
           1988,
@@ -70,7 +71,7 @@
   ],
   "transform": [
     {
-      "filter": "selectedYear == 'All' || datum.Year == selectedYear"   
+      "filter": "selectedYear == 'All' || datum.Year == selectedYear || (selectedYear == 'Last 10 Years' && datum.Year >= 2023 - 9)"
     }
   ],
   "selection": {
